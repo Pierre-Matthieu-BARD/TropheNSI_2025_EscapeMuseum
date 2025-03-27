@@ -1,0 +1,7 @@
+ursina>=5.0.0
+pygame>=2.0.0
+numpy>=1.20.0
+panda3d>=1.10.0
+panda3d-gltf>=0.13
+panda3d-simplepbr>=0.6
+sqlite3>=2.6.0  # Normalement inclus dans Python
