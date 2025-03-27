@@ -35,20 +35,21 @@ Assure-toi que tous les fichiers nécessaires (comme `musee.db` et les assets) s
 
 ## 🏛️ Structure du projet
 
-📁 EscapeMuseum/
-├── 📁 assets/                  # Tous les assets graphiques et sonores
-│   ├── 📁 image/              # Images diverses (interfaces, etc.)
-│   │   ├── ascensceur.jpg
+```plaintext
+EscapeMuseum/
+├── assets/  # Tous les assets graphiques et sonores
+│   ├── image/  # Images diverses (interfaces, etc.)
+│   │   ├── ascenseur.jpg
 │   │   ├── commandes.png
 │   │   ├── Escape.png
 │   │   ├── ligne_droite.png
 │   │   ├── ligne_haut.png
 │   │   ├── menu.png
-│   │   └── regles.png
-│   ├── 📁 minimap/            # Cartes miniatures
+│   │   ├── regles.png
+│   ├── minimap/  # Cartes miniatures
 │   │   ├── grid.png
-│   │   └── grid_etage2.png
-│   ├── 📁 models/             # Modèles 3D et textures
+│   │   ├── grid_etage2.png
+│   ├── models/  # Modèles 3D et textures
 │   │   ├── banc.blend/.glb/.obj
 │   │   ├── etage1.blend/.glb/.obj
 │   │   ├── etage2.blend/.glb/.obj
@@ -56,35 +57,35 @@ Assure-toi que tous les fichiers nécessaires (comme `musee.db` et les assets) s
 │   │   ├── mur(bon).jpg
 │   │   ├── pasmal.blend
 │   │   ├── plafond.jpg
-│   │   └── woodfloor.png
-│   ├── 📁 musique/            # Fichiers audio
+│   │   ├── woodfloor.png
+│   ├── musique/  # Fichiers audio
 │   │   ├── bruit_pas.mp3
 │   │   ├── clique.mp3
 │   │   ├── exploration.mp3
 │   │   ├── menu.mp3
 │   │   ├── saut.mp3
-│   │   └── speedrun.mp3
-│   └── 📁 oeuvre/             # Œuvres d'art (images)
-│       ├── allégoriedeloccasion.jpg
-│       ├── americangothic.jpg
-│       ├── ... (toutes les autres œuvres)
-│       ├── guernica.jpg
-│       ├── la_joconde.jpg
-│       └── le_baiser.jpg
-├── 📁 polices/                 # Polices d'écriture
-│   └── Poppins-Bold.ttf
-├── 📁 sources/                 # Code source Python
-│   ├── 📁 data/               # Données du jeu
-│   │   ├── musee.db           # Base de données SQLite
-│   │   └── oeuvres.json       # Données des œuvres
-│   ├── artwork.py             # Gestion des œuvres
-│   ├── exploration.py         # Mode exploration
-│   ├── main.py                # Point d'entrée principal
-│   └── speedrun.py            # Mode speedrun
-├── 📄 EscapeMuseum.md          # Documentation
-├── 📄 licence.txt             # Licence du projet
-├── 📄 presentation.pdf        # Présentation du projet
-└── 📄 requirements.txt        # Dépendances Python
+│   │   ├── speedrun.mp3
+│   ├── oeuvre/  # Œuvres d'art (images)
+│   │   ├── allegoriedeloccasion.jpg
+│   │   ├── americangothic.jpg
+│   │   ├── guernica.jpg
+│   │   ├── la_joconde.jpg
+│   │   ├── le_baiser.jpg
+│   │   ├── ... (toutes les autres œuvres)
+├── polices/  # Polices d'écriture
+│   ├── Poppins-Bold.ttf
+├── data/  # Données du jeu
+│   ├── musee.db  # Base de données SQLite
+│   ├── oeuvres.json  # Données des œuvres
+├── sources/  # Code source Python
+│   ├── artwork.py  # Gestion des œuvres
+│   ├── exploration.py  # Mode exploration
+│   ├── main.py  # Point d'entrée principal
+│   ├── speedrun.py  # Mode speedrun
+├── EscapeMuseum.md  # Documentation
+├── licence.txt  # Licence du projet
+├── presentation.pdf  # Présentation du projet
+├── requirements.txt  # Dépendances Python
 
 ## 🎮 Commandes du jeu
 
